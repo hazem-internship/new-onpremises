@@ -33,16 +33,20 @@ jxRequirements:
     registry: ghcr.io
   environments:
   - key: dev
+    owner: hazem-internship
+    repository: new-onpremises
   - key: staging
   - key: production
   ingress:
-    domain: change.me
+    domain: 10.0.0.100.nip.io
     kind: ingress
     namespaceSubDomain: -tekton-pipelines.
     tls:
       email: ""
       enabled: false
       production: false
+  pipelineUser:
+    username: hazemTa
   repository: bucketrepo
   secretStorage: local
   vault: {}
