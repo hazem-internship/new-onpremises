@@ -22,7 +22,7 @@ jxRequirements:
     schedule: ""
   cluster:
     chartKind: pages
-    chartRepository: https://hazem-internship.github.io/gow-new-1
+    chartRepository: https://github.com/hazem-internship/gow-new-1.git
     clusterName: kind
     devEnvApprovers:
     - todo
