@@ -1,0 +1,11 @@
+filepath: ""
+namespace: jx-production
+repositories:
+- name: dev
+  url: http://bucketrepo-jx.10.0.0.100.nip.io
+releases:
+- chart: dev/golang-ok
+  version: 0.0.1
+  name: golang-ok
+templates: {}
+renderedvalues: {}
