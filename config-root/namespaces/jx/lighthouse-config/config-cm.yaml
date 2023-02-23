@@ -7,6 +7,7 @@ data:
       LinkURL: null
     in_repo_config:
       enabled:
+        hazem-internship/golang-ok: true
         hazem-internship/golang-webhook: true
         hazem-internship/new-onpremises: true
         hazem-internship/y: true
@@ -21,6 +22,7 @@ data:
         required-if-present-contexts: null
         skip-unknown-contexts: false
       merge_method:
+        hazem-internship/golang-ok: merge
         hazem-internship/golang-webhook: merge
         hazem-internship/new-onpremises: merge
         hazem-internship/y: merge
@@ -35,6 +37,7 @@ data:
         - needs-rebase
         repos:
         - hazem-internship/new-onpremises
+        - hazem-internship/golang-ok
         - hazem-internship/golang-webhook
         - hazem-internship/y
       - labels:
@@ -47,6 +50,7 @@ data:
         - needs-rebase
         repos:
         - hazem-internship/new-onpremises
+        - hazem-internship/golang-ok
         - hazem-internship/golang-webhook
         - hazem-internship/y
       target_url: http://lighthouse-jx.10.0.0.100.nip.io/merge/status
