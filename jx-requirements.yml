@@ -5,8 +5,8 @@ spec:
     enabled: false
     schedule: ""
   cluster:
+    chartKind: pages
     chartRepository: https://hazem-internship.github.io/gow-new-1
-    chartKind: pages 
     clusterName: kind
     devEnvApprovers:
     - todo
