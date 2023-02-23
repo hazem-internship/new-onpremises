@@ -5,7 +5,7 @@ spec:
     enabled: false
     schedule: ""
   cluster:
-    chartRepository: https://hazem-internship.github.io/gow-new-1/
+    chartRepository: https://hazem-internship.github.io/gow-new-1
     clusterName: kind
     devEnvApprovers:
     - todo
