@@ -6,6 +6,10 @@ data:
       repos:
       - hazem-internship/new-onpremises
       require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
+      - hazem-internship/y
+      require_self_approval: true
     cat: {}
     cherry_pick_unapproved: {}
     config_updater:
@@ -21,6 +25,11 @@ data:
         name: cd-indicators
       - endpoint: http://lighthouse-webui-plugin.jx.svc.cluster.local/lighthouse/events
         name: lighthouse-webui-plugin
+      hazem-internship/y:
+      - endpoint: http://cd-indicators.jx.svc.cluster.local/lighthouse/events
+        name: cd-indicators
+      - endpoint: http://lighthouse-webui-plugin.jx.svc.cluster.local/lighthouse/events
+        name: lighthouse-webui-plugin
     heart: {}
     label:
       additional_labels: null
@@ -28,6 +37,20 @@ data:
     plugins:
       hazem-internship/new-onpremises:
       - config-updater
+      - approve
+      - assign
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - cat
+      - dog
+      - pony
+      hazem-internship/y:
       - approve
       - assign
       - help
@@ -53,6 +76,11 @@ data:
     - repos:
       - hazem-internship/new-onpremises
       trusted_org: hazem-internship
+    - repos:
+      - hazem-internship/y
+      trusted_org: hazem-internship
+    welcome:
+    - message_template: Welcome
 kind: ConfigMap
 metadata:
   creationTimestamp: null
