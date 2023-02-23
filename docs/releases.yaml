@@ -100,18 +100,15 @@
     repositoryUrl: https://cdfoundation.github.io/tekton-helm-chart
     resourcePath: config-root/namespaces/tekton-pipelines/tekton-pipeline
     version: 0.5.0
-- namespace: jx-staging
-  path: helmfiles/jx-staging/helmfile.yaml
+
   releases:
   - apiVersion: v1
     appVersion: 0.0.6
     description: A Helm chart for Kubernetes
-    firstDeployed: "2023-02-23T15:11:43Z"
-    icon: https://raw.githubusercontent.com/cdfoundation/artwork/master/jenkinsx/icon/color/jenkinsx-icon-color.png
-    lastDeployed: "2023-02-23T15:11:43Z"
+
     name: golang-ok
     releaseName: golang-ok
     repositoryName: dev
     repositoryUrl: https://hazem-internship.github.io/gow-new-1/
-    resourcePath: config-root/namespaces/jx-staging/golang-ok
+
     version: 0.0.6

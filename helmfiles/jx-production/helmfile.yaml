@@ -1,0 +1,17 @@
+filepath: ""
+environments:
+  default:
+    values:
+    - jx-values.yaml
+namespace: jx-production
+repositories:
+- name: dev
+  url: https://hazem-internship.github.io/gow-new-1/
+releases:
+- chart: dev/golang-ok
+  version: 0.0.6
+  name: golang-ok
+  values:
+  - jx-values.yaml
+templates: {}
+renderedvalues: {}

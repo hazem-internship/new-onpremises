@@ -68,7 +68,6 @@
 	      <td></td>
 	    </tr>
     <tr>
-		      <td colspan='5'><h3>jx-staging</h3></td>
 		    </tr>
 	    <tr>
 	      <td>golang-ok</td>
