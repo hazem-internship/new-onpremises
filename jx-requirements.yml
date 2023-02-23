@@ -6,6 +6,7 @@ spec:
     schedule: ""
   cluster:
     chartRepository: https://hazem-internship.github.io/gow-new-1
+    chartKind: pages 
     clusterName: kind
     devEnvApprovers:
     - todo
