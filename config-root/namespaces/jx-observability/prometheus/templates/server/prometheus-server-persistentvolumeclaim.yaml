@@ -18,4 +18,9 @@ spec:
   - ReadWriteOnce
   resources:
     requests:
-      storage: "8Gi"
+      storage: 1Gi
+  storageClassName: local-storage
+  volumeMode: Filesystem
+  volumeName: my-pv
+      
+
