@@ -8,7 +8,7 @@ repositories:
 - name: jxgh
   url: https://jenkins-x-charts.github.io/repo
 - name: grafana
-  url: https://grafana.github.io/helm-charts
+  url: https://hazem-internship.github.io/gow-new-1
 - name: prometheus-community
   url: https://prometheus-community.github.io/helm-charts
 releases:
